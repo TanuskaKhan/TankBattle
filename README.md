@@ -83,15 +83,3 @@ Enemy shooting: enemies target whichever is nearer (you or the base)
 and fire from range (not only when hugging the base). Shell arc and
 collision windows are tuned so shots land reliably and actually
 reduce HP.
-
-NOTE: I could not visually render this in the sandbox (no display here).
-I validated the game LOGIC with an automated harness that mocks OpenGL
-and drives reset/keyboard/mouse/idle through every feature (movement,
-firing, shell arc, wave progression, pause, camera toggle, power-up
-pickup, base-destroyed game over, restart, obstacle blocking, turret
-follow, static orbit camera, HP-capsule rendering at every HP level,
-hp colours, enemy firing + damage, circular-arena spawns/bounds) --
-all passed. I also rendered the
-capsule shape to ASCII to confirm it is a rounded pill/oval, not a box.
-Please run it on your machine to check the visuals/positions match what
-you want, and tune numbers (speeds, sizes, positions) to taste.
